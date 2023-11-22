@@ -1,0 +1,1305 @@
+@charset "utf-8";
+
+/* main ----------------------------------*/
+@media screen and (max-width:1420px) {
+    .container .section3 .inner3 {
+        padding: 0 0 150px 0;
+    }
+    .container .section3 .inner3 .text {
+        height: 110%;
+        width: 30%;
+    }
+    .container .section3 .inner3 .text a > p {
+        font-size: 3rem;
+    }
+    .container .section3 .inner3 .text .box i {
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width:1260px) {
+    /* main */
+    .container .section3 .inner3 {
+        padding: 0 0 100px 0;
+        gap: 30px;
+    }
+    .container .section3 .inner3 .text {
+        height: 90%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:968px) {
+    /* main */
+    .container main .inner-left .text-box span,
+    .container main .inner-left .text-box .text:hover span::before {
+        width: 110px;
+    }
+    .container .section3 .inner3 {
+        padding: 0 0 200px 0;
+        gap: 30px;
+    }
+    .container main .inner-left .back span,
+    .container main .inner-left .text-box .back:hover span::before {
+        width: 90px;
+    }
+    .container .section3 .inner3 .img-box {
+        width: 200px;
+        height: 200px;
+    }
+    .container .section3 .inner3 .text p {
+        width: 200px;
+        text-align: center;
+    }
+    .container main .again {
+        top: 33%;
+    }
+    .container main .skip1 {
+        top: 23%;
+    }
+}
+@media screen and (max-width:674px) {
+    .container .section3 .inner3 .img-box {
+        width: 150px;
+        height: 150px;
+    }
+    .container .section3 .inner3 .text p {
+        width: 150px;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:526px) {
+    .container .section3 .inner3 .text {
+        height: 65% !important;
+        width: 65% !important;
+        border-radius: 15px;
+    }
+    .container .section3 .inner3 .text a > p {
+        font-size: 1.5rem !important;
+    }
+    .container .section3 .inner3 .text .box i {
+        font-size: 3rem !important;
+    }
+    .container .section3 .inner3 {
+        top: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding: 0 0 100px 0;
+        gap: 20px;
+    }
+    .container .section3 .inner3 .text a > p {
+        margin: 0px !important;
+    }
+    .container .section3 .inner3 .text .box i {
+        margin: 0 !important;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    .container .section3 .inner3 .text .box {
+        height: 100%;
+        position: relative;
+    }
+    .container .section3 .inner3 .text a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container .section3 .inner3 .img-box {
+        width: 100px;
+        height: 100px;
+    }
+    .container .section3 .inner3 .text p {
+        width: 100px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .container main .skip {
+     width: 70px;   
+     height: 30px;
+    }
+    .container main .again {
+        top: 35%;left: 60%;
+    }
+    .container main .skip1 {
+        top: 35%; left: 25%;
+    }
+    .container .section3 .smoky {
+        width: 100%;
+        font-size: 6rem;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .container .section3 .inner3 .text {
+        width: 70% !important;
+    }
+    .container .section3 .inner3 {
+        width: 90%;
+    }
+    .container .section3 .inner3 .text a > p {
+        font-size: 1rem !important;
+    }
+}
+/* main ---------------------------------*/
+
+/* about--------------------------------- */
+@media screen and (max-width:1612px) {
+    .container main .inner-right .picture {
+        grid-column: 4/5;
+        grid-row: 6/6;    }
+    .container main .inner-right .intro {
+        grid-column: 2/6;
+        grid-row: 7/9;    
+    }
+    .container main .inner-right .profil-text span {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:1280px) {
+    .container main .inner-right .profil-text span {
+        font-size: 3rem;
+    }
+    .container main .inner-right .profil-text .nth1 {
+        font-size: 1.5rem;
+    }
+    .container main .inner-right .profil-text .nth2 {
+        font-size: 1.5rem;
+    }
+    .container main .inner-right .picture {
+        width: 270px;
+        height: 270px;
+    }
+    .container main .inner-left .profil-text {
+        font-size: 2.5rem;
+    }
+    .container main .inner-left .text-box p a {
+        font-size: 1.5rem;
+    }
+    .container main .inner-left .text-box span {
+        width: 100px;
+    }
+    .container main .inner-left .text-box .text:hover span::before {
+        width: 100px;
+    }
+    .container main .inner-left .text-box .text:hover span::before {
+        width: 80px;
+    }
+    .container main .inner-left .text-box .text:hover span {
+        width: 80px;
+    }
+}
+@media screen and (max-width:1076px) {
+    .container main .inner-right .profil-text span {
+        font-size: 1.8rem;
+        margin: 0 0 0 20px;
+    }
+    .container main .inner-right .profil-text .nth1 {
+        font-size: 1.3rem;
+    }
+    .container main .inner-right .profil-text .nth2 {
+        font-size: 1.3rem;
+    }
+    .container main .inner-right .profil-text {
+        width: 290px;
+    }
+    .container main .inner-right .intro {
+        margin: 0;
+    }
+    .container main .inner-left .profil-text {
+        font-size: 2rem;
+    }
+    /* .container main .inner-left .text-box p a {
+        font-size: 1.1rem;
+    } */
+    .container main .inner-left .text-box .text:hover span::before {
+        width: 70px;
+    }
+    .container main .inner-left .text-box .text:hover span {
+        width: 70px;
+    }
+    .container main .inner-left .text-box .contect span {
+        width: 80px;
+    }
+}
+@media screen and (max-width:1058px) {
+    .container main .inner-right .profil-text {
+        width: 205px;
+        height: 150px;
+        font-size: 2rem;
+    }
+    .container main .inner-right .profil-text .nth1 ,
+    .container main .inner-right .profil-text .nth2 {
+        font-size: 2=1.5rem;
+    }
+}
+@media screen and (max-width:1026px) {
+    .container main .inner-right .profil-text {
+        box-sizing: border-box;
+        width: 200px;
+        height: 150px;
+        font-size: 1.5rem;
+        grid-column: 4/8;
+        grid-row: 4/6;
+        margin: 0;
+        left: 12%;
+    }
+    .container main .inner-right .profil-text p,
+    .container main .inner-right .profil-text span {
+        margin: 0;
+    }
+    .container main .inner-right .picture {
+        width: 250px;
+        height: 250px;
+        grid-column: 4/5;
+        grid-row: 5/8;
+    }
+    .container main .inner-right .intro {
+        grid-column: 2/6;
+        grid-row: 6/9;    
+        height: 50px;
+    }
+}
+@media screen and (max-width:968px) {
+    .container main .inner-left .profil-text {
+        font-size:3rem ;
+    }
+    .container main .inner-right .profil-text p,
+    .container main .inner-right .profil-text span {
+        font-size: 1.8rem;
+    }
+    .container main .inner-right .intro p {
+        font-size: 2rem;
+    }
+    .container main .inner-left .text-box p a {
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:796px) {
+    .container main .inner-left .profil-text {
+        word-break: keep-all;
+    }
+}
+@media screen and (max-width:758px) {
+    .container main .inner-right .picture {
+        width: 250px;
+    }
+}
+@media screen and (max-width:684px) {
+    .container main .inner-right .picture {
+        grid-column: 2/5;
+        grid-row: 5/6;
+    }
+    .container main .inner-left .profil-text {
+        margin: 80px 0 0 0;
+        height: 30%;
+    }
+    .container main .inner-right .profil-text {
+        grid-column: 3/4;
+        grid-row: 3/6;
+        margin: 0;
+        top: -34%;
+    }
+    .container main .inner-right .picture .profil-img img {
+        border-radius: 15px;
+    }
+    .container main .inner-right .profil-text span {
+        margin: 0;
+    }
+    .container main .inner-right .profil-text p {
+        margin: 0;
+    }
+    .container main .inner-right .intro {
+        grid-column: 2/6;
+        grid-row: 7/9;
+        margin: 0;
+        display: none;
+    }
+    .container main .inner-left .profil-text p {
+        word-break: keep-all;
+        font-size: 2rem;
+    }
+    @media screen and (max-width:600px) {
+        .container main .inner-right .picture {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    @media screen and (max-width:510px) {
+        .container main .inner-left .text {
+            margin: 0 0 20px 0;
+        }
+    }
+}
+@media screen and (max-width: 414px) {
+    .container main .inner-left .profil-text p {
+        font-size: 1.5rem;
+    }
+    .container main .inner-left .text-box p a  {
+        font-size: 1rem;
+    }
+    .container main .inner-right .profil-text span,
+    .container main .inner-right .profil-text p,
+    .container main .inner-right .intro p {
+        font-size: 1.2rem;
+    }
+    .container main .inner-right .picture {
+        width: 127px;
+        height: 108px;
+        grid-column: 3/5;
+        grid-row: 5/5;
+    }
+    .container main .inner-right .profil-text {
+        width: 150px;
+        height: 100px;
+        top: -34%;
+    }
+    .container main .inner-right .profil-text span {
+        font-size: 1.5rem;
+    }
+    .container main .inner-right .profil-text .nth2 {
+        left: 0;
+    }
+    .container main .inner-right .profil-text .nth2::before {
+        display: none;
+    }
+    .container main .inner-right .profil-text .nth1::after {
+        width: 90%;
+
+    }
+}
+
+
+
+/* bottom ------------------------------ */
+
+@media screen and (max-width:1266px) {
+    .inner-skill > p {
+        margin: 0 0 0 156px;
+    }
+}
+@media screen and (max-width:1164px) {
+    .inner-skill > p {
+        margin: 0 0 0 120px;
+    }
+}
+@media screen and (max-width:1076px) {
+    .inner-skill > p {
+        margin: 0 0 0 70px;
+    }
+}
+@media screen and (max-width:1036px) {
+    .inner-skill > p {
+        margin: 0 0 0 150px;
+    }
+    .inner-skill .skill-top {
+        gap: 150px;
+    }
+    .inner-skill .skill-bottom {
+        gap: 150px;
+    }
+    .inner-skill .img-box {
+        width: 150px;
+        height: 150px;
+    }
+    .inner-skill .skill-top {
+        height: 30%;
+    }
+    .inner-skill .skill-bottom {
+        height: 30%;
+    }
+}
+@media screen and (max-width:940px) {
+    .inner-skill > p {
+        margin: 0 0 0 120px;
+    }
+}
+@media screen and (max-width:858px) {
+    .inner-skill > p {
+        margin: 0 0 0 80px;
+    }
+}
+@media screen and (max-width:762px) {
+    .inner-skill .skill-top {
+        gap: 100px;
+    }
+    .inner-skill .skill-bottom {
+        gap: 100px;
+    }
+}
+@media screen and (max-width:688px) {
+    .inner-skill > p {
+        margin: 0 0 0 50px;
+    }
+}
+@media screen and (max-width:662px) {
+    .inner-skill > p {
+        margin: 0 0 0 90px;
+    }
+    .inner-skill .img-box {
+        width: 100px;
+        height: 100px;
+    }
+    .inner-skill .skill-top {
+        gap: 100px;
+        padding: 0 0 30px 0;
+    }
+    .inner-skill .skill-bottom {
+        gap: 100px;
+        padding: 30px 0 0 0;
+    }
+}
+@media screen and (max-width:568px) {
+    .inner-skill > p {
+        margin: 0 0 0 50px;
+    }
+    .inner-skill .img-box {
+        width: 100px;
+        height: 100px;
+    }
+    .inner-skill .skill-top {
+        gap: 100px;
+        padding: 0 0 30px 0;
+        height: 40%;
+    }
+    .inner-skill .skill-bottom {
+        gap: 100px;
+        padding: 30px 0 0 0;
+    }
+}
+@media screen and (max-width:520px) {
+    .inner-skill > p {
+        margin: 0 0 0 70px;
+    }
+    .inner-skill .skill-top {
+        gap: 50px;
+        padding: 0 0 30px 0;
+    }
+    .inner-skill .skill-bottom {
+        gap: 50px;
+        padding: 30px 0 0 0;
+    }
+
+}
+@media screen and (max-width:460px) {
+    .inner-skill > p {
+        margin: 0 0 0 66px;
+        font-size: 1.8rem;
+    }
+    .inner-skill .skill-top {
+        gap: 20px;
+        padding: 0 0 10px 0;
+    }
+    .inner-skill .skill-bottom {
+        gap: 20px;
+        padding: 10px 0 0 0;
+    }
+}
+@media screen and (max-width:390px) {
+    .inner-skill .img-box {
+        width: 80px;
+        height: 80px;
+    }
+    .inner-skill .skill-top {
+        height: 35%;
+    }
+}
+/* about----------------------------- */
+
+
+
+
+
+
+
+
+/* contact----------------------------- */
+@media screen and (max-width:1736px){
+    button {
+        top: 26%;
+        right: 10%;
+        width: 400px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:1714px){
+    button {
+        top: 26%;
+        right: 10%;
+        width: 350px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:1532px){
+    button {
+        top: 28%;
+        right: 10%;
+        width: 300px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:1344px){
+    button {
+        top: 26.5%;
+        right: 10%;
+        width: 250px;
+        height: 130px;
+    }
+    main .container .hide .inner1 p {
+        font-size: 1.5rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 4rem;
+    }
+    main .container .hide img {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:1168px){
+    button {
+        top: 28.5%;
+        right: 10%;
+        width: 200px;
+        height: 100px;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    main .container .hide .inner1 p {
+        font-size: 2rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 4rem;
+    }
+    main .container .hide img {
+        width: 150px;
+        height: 150px;
+    }    
+    main .container .hide {
+        width: 100%;
+        height: 80%;
+        left: 0;
+    }
+}
+@media screen and (max-width:982px){
+    button {
+        top: 27%;
+        right: 11%;
+        width: 150px;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    main .inner .right-box .right-box-text input {
+        margin: 7px;
+    }
+}
+@media screen and (max-width:968px) {
+    main .container .hide .inner1 p {
+        font-size: 2.5rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 5rem;
+    }
+    main .container .hide img {
+        width: 120px;
+        height: 120px;
+    }    
+}
+@media screen and (max-width:800px){
+    button {
+        top: 24.5%;
+        right: 7%;
+        width: 100px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    main .inner .right-box .right-box-text input {
+        margin: 7px;
+        padding: 0 0 0 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    header .inner{
+        gap: 50px;
+    }
+    main .inner .right-box .right-box-text .subject,
+    main .inner .right-box .right-box-text .memo {
+        height: 50px;
+    }
+}
+@media screen and (max-width:530px) {
+    main .inner .left-box {
+        margin: 0;
+        gap: 30px;
+    }
+    main .container .inner {
+        flex-direction: column;
+        height: 80%;
+    }
+    main .inner .right-box .right-box-text .subject,
+    main .inner .right-box .right-box-text .memo {
+        height: 50px;
+    }
+    button {
+        top: 30.5%;
+        right: 13%;
+    }
+    main .inner .left-box .left-text span {
+        margin: 10px 0 0 0;
+    }    
+    main .container .hide .inner1 {
+        justify-content: space-evenly;
+    }
+    main .inner .right-box {
+        margin: 0;
+        width: 100%;
+    }
+    main .inner .left-box {
+        width: 75%;
+        gap: 30px;
+    }
+    main .container .hide .inner1 p {
+        font-size: 2rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 4rem;
+    }
+    main .container .hide img {
+        width: 100px;
+        height: 100px;
+    }    
+}
+@media screen and (max-width:468px) {
+    main .container .hide .inner1 p {
+        font-size: 2rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 4rem;
+    }
+    main .container .hide img {
+        width: 100px;
+        height: 100px;
+    }    
+}
+@media screen and (max-width:468px) {
+    main .container .hide .inner1 p {
+        font-size: 1.5rem;
+    }
+    main .container .hide .inner1 i {
+        font-size: 3rem;
+    }
+    main .container .hide img {
+        width: 70px;
+        height: 70px;
+    }    
+}
+@media screen and (max-width:376px) {
+    button {
+        right: 11%;
+    }
+}
+
+/* contact -------------------------------------------------*/
+/* portfolio -------------------------------------------------*/
+@media screen and (max-width:1720px) {
+    .container .section1 .inner .pro1 .hover,
+    .container .section1 .inner .pro3 .hover {
+        left: 7.5%;
+    }
+    .container .section1 .inner .pro2 .hover {
+        right: 9.5%;
+    }
+    .container .section1 .inner .pro1:hover .hover,
+    .container .section1 .inner .pro3:hover .hover {
+        left: 7.5%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        right: 9.5%;
+    }
+    .container .section2 .inner {
+        right: 110px;
+        width: 110%;
+    }
+    .container .section2 .inner .pro img,
+    .container .section2 .inner .pro .pro-text {
+        width: 350px;
+    }
+}
+@media screen and (max-width:1492px) {
+    .container .section1 .inner .pro1 .hover {
+        left: 5.5%;
+    }
+    .container .section1 .inner .pro2 .hover {
+        right: 5.5%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        right: 5.5%;
+    }
+    .container .section1 .inner .pro1:hover .hover {
+        left: 5.5%;
+    }
+    .container .section1 .inner .pro3 .hover {
+        left: 5.5%;
+    }
+    .container .section1 .inner .pro3:hover .hover {
+        left: 5.5%;
+    }
+    .container .section2 .inner {
+        right: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1460px)  {
+    .container .section1 .inner .title p:nth-child(1) {
+        animation: p1 3s linear ;
+        top: 150px;left: 41%;
+    }
+    .container .section1 .inner .title p:nth-child(2) {
+        animation: p2 3s linear ;
+        top: 150px;left: 44%;
+    }
+    .container .section1 .inner .title p:nth-child(3) {
+        animation: p3 3s linear ;
+        top: 150px;left: 46%;
+    }
+    .container .section1 .inner .title p:nth-child(4) {
+        animation: p4 3s linear ;
+        top: 150px;left: 50%;
+        transform: translateX(-50%);
+    }
+    .container .section1 .inner .title p:nth-child(5) {
+        animation: p5 3s linear ;
+        top: 150px;left: 51%;
+    }
+    .container .section1 .inner .title p:nth-child(6) {
+        animation: p6 3s linear ;
+        top: 150px;left: 54%;
+    }
+    .container .section1 .inner .title p:nth-child(7) {
+        animation: p7 3s linear ;
+        top: 150px;left: 57%;
+    }   
+    .container .section2 .inner .pro img, 
+    .container .section2 .inner .pro .pro-text {
+        width: 250px;
+        height: 150px;
+    }
+    .container .section2 .inner .pro .pro-text .date {
+        margin: 10px 0 0 0;
+    }
+    .container .section2 .inner .pro .pro-text .tool {
+        margin: 10px 0 20px 0;
+    }
+    .container main .inner-left .text-box p a {
+        padding: 0 50px 0 30px;
+    }
+    .container .section2 .inner .pro .pro-text .page p:first-child a{
+        width: 150px;
+        height: 40px;
+        font-size: 1.2rem !important;
+        padding: 0;
+    }
+    .container .section2 .inner .pro .pro-text .page p:last-child a{
+        width: 150px;
+        height: 60px;
+        font-size: 1.1rem;
+        word-break: keep-all;
+    }
+    .container .section2 .inner .pro .pro-text .page {
+        gap: 0px;
+    }
+    .container .section2 .inner .pro .pro-text .page p a {
+        padding: 0;
+        word-break: keep-all;
+        /* line-height: 50px; */
+    }
+    .container .section2 .inner {
+        right: 170px;
+    }
+}
+@media screen and (max-width:1334px) {
+    .container .section1 .inner .pro1 .hover,
+    .container .section1 .inner .pro3 .hover {
+        left: 2.5%;
+    }
+    .container .section1 .inner .pro2 .hover {
+        right: 3.5%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        right: 3.5%;
+    }
+    .container .section1 .inner .pro1:hover .hover,
+    .container .section1 .inner .pro3:hover .hover {
+        left: 2.5%;
+    }
+}
+@media screen and (max-width:1272px) {
+    .container .section2 .inner {
+        right: 60px;
+    }
+}
+@media screen and (max-width:1166px) {
+    .container .section1 .inner .pro1 .hover {
+        left: 0%;
+    }
+    .container .section1 .inner .pro2 .hover {
+        right: 0%;
+    }
+    .container .section1 .inner .pro3 .hover {
+        left: 0%;
+    }
+    .container .section1 .inner .pro1:hover .hover {
+        left: 0%;
+        top: -356%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        right: 0%;
+        top: -339%;
+    }
+    .container .section1 .inner .pro3:hover .hover {
+        left: 0%;
+        top: -880%;
+        height: 2500px;
+    }
+    .container .section2 .inner {
+        right: 0;
+        /* gap: 10px; */
+    }
+}
+@media screen and (max-width:1058px) {
+    .container .section1 .inner .title p {
+        font-size: 4rem;
+    }
+    .container .section1 .inner .pro img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .container .section3 .inner3 .text .box i {
+        font-size: 6rem;
+    }
+    .container .section3 .inner3 .text {
+        width: 30%;
+        height: 80%;
+    }
+    .container .section1 .inner .pro1 .hover, 
+    .container .section1 .inner .pro2 .hover, 
+    .container .section1 .inner .pro3 .hover {
+        width: 410px;
+        height: 1000px;
+    }
+    .container .section2 .inner {
+        gap: 10PX;
+    }
+    .container .section2 .inner .pro .pro-text .page p:first-child a{
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+    }
+    html {
+        font-size: 11px;
+    }
+    .container .section2 .inner .pro .pro-text .page p:last-child a{
+        width: 80px;
+        height: 40px;
+        line-height: 13px;
+        padding: 9px 0px;
+}
+    .container .section2 .inner .pro .pro-text .page {
+        align-items: center;
+    }
+}
+@media screen and (max-width:968px) {
+    .container .section1 .inner .title p {
+        font-size: 4rem;
+    }
+    .container .section3 .inner3 .text {
+        width: 30%;
+        height: 100%;
+    }
+    .container .section3 .inner3 .text a > p {
+        margin: 30px 0 0 0;
+    }
+    .container .section3 .inner3 .text .box i {
+        margin: 30px 0 0 0;
+    }
+    .container .section1 .inner .title p:nth-child(1) {
+        animation: p1 3s linear ;
+        top: 150px;left: 38%;
+    }
+    .container .section1 .inner .title p:nth-child(2) {
+        animation: p2 3s linear ;
+        top: 150px;left: 42%;
+    }
+    .container .section1 .inner .title p:nth-child(3) {
+        animation: p3 3s linear ;
+        top: 150px;left: 45%;
+    }
+    .container .section1 .inner .title p:nth-child(4) {
+        animation: p4 3s linear ;
+        top: 150px;left: 50%;
+        transform: translateX(-50%);
+    }
+    .container .section1 .inner .title p:nth-child(5) {
+        animation: p5 3s linear ;
+        top: 150px;left: 52%;
+    }
+    .container .section1 .inner .title p:nth-child(6) {
+        animation: p6 3s linear ;
+        top: 150px;left: 55%;
+    }
+    .container .section1 .inner .title p:nth-child(7) {
+        animation: p7 3s linear ;
+        top: 150px;left: 58%;
+    }   
+}
+@media screen and (max-width:1058px) {
+    .container .section1 .inner .pro img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .container .section1 .inner .pro1 .hover, 
+    .container .section1 .inner .pro2 .hover, 
+    .container .section1 .inner .pro3 .hover {
+        width: 355px;
+        height: 1000px;
+    }
+    .container .section1 .inner .pro .pro-text .page p a,
+    .container .section1 .inner .pro3 .pro-text .page p:first-child a {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0;
+    }
+    .container .section1 .inner .pro3 .pro-text .page p:last-child a,
+    .container .section1 .inner .pro1 .pro-text .page p:last-child a {
+        width: 130px;
+        height: 30px;
+    }
+    .container .section1 .inner .pro3 .pro-text .page p .text  {
+        padding: 0;
+    }    
+    .container .section1 .inner .pro .pro-text .tool {
+        margin: 0 0 30px 0;
+    }
+    .container .section1 .inner .pro1 .pro-text .page,
+    .container .section1 .inner .pro3 .pro-text .page {
+        justify-content: right;
+        gap: 0;
+    }
+    .container .section1 .inner .pro .pro-text .date,
+    .container .section1 .inner .pro .pro-text .tool {
+        word-break: keep-all;
+    }
+}
+@media screen and (max-width:856px) {
+    .container .section2 .inner {
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .section2 .inner .pro .pro-text .page {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:770px) {
+    .container .section3 .inner3 .text a > p {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .container .section1 .inner .pro img {
+        width: 250px;
+        height: 200px;
+        object-fit: center;
+    }
+    .container .section1 .inner .pro1 .hover, 
+    .container .section1 .inner .pro2 .hover, 
+    .container .section1 .inner .pro3 .hover {
+        width: 255px;
+        height: 1000px;
+    }
+    .container .section1 .inner .pro3 .hover {
+        height: 500px;
+    }
+    .container .section1 .inner .pro .pro-text .page p a,
+    .container .section1 .inner .pro3 .pro-text .page p:first-child a {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    .container .section1 .inner .pro3 .pro-text .page p:last-child a,
+    .container .section1 .inner .pro1 .pro-text .page p:last-child a {
+        width: 130px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+    .container .section1 .inner .pro3 .pro-text .page p a  {
+        font-size: 10.5px;
+    }   
+    .container .section1 .inner .pro1 .hover,
+    .container .section1 .inner .pro3 .hover {
+        left: 2%;
+        top: -363%;
+    }
+    .container .section1 .inner .pro1:hover .hover,
+    .container .section1 .inner .pro3:hover .hover {
+        left: 2%;
+        top: -363%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        top: -339%;
+    }
+    .container .section1 .inner .pro3:hover .hover {
+        top: -768%;
+        height: 2000px;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        right: 2%;
+    }
+}
+@media screen and (max-width:630px) {
+    .container main .inner-left .text-box {
+        width: 90%;
+    }
+    .container main .inner-left .text-box p {
+        width: 100%;
+    }
+    .container main .inner-left .text {
+        width: 15%;
+    }
+    .container main .inner-left .text-box span, .container main .inner-left .text-box .text:hover span::before {
+        width: 80px;
+    }
+    .container main .inner-left .back span, .container main .inner-left .text-box .back:hover span::before {
+        width: 60px;
+    }
+    .container main .inner-left .text-box .text:hover span::before {
+        width: 55px;
+    }
+    .container main .inner-left .text-box .text:hover span {
+        width: 55px;
+    }
+    .container main .inner-left .text-box p a {
+        font-size: 1.2rem;
+        padding: 0 30px 0 20px;
+    }
+    .container .section1 .inner .pro2 {
+        top: 43%;
+    }
+    .container .section1 .inner .pro3 {
+        top: 62%;
+    }
+    .container .section1 .inner .pro1:hover .hover,
+    .container .section1 .inner .pro1 .hover,
+    .container .section1 .inner .pro3 .hover,
+    .container .section1 .inner .pro3:hover .hover {
+        left: 0%;
+    }
+    .container .section1 .inner .pro2:hover .hover,
+    .container .section1 .inner .pro2 .hover {
+        right: -1%;
+    } 
+    .container .section1 .inner .title p:nth-child(1) {
+        animation: p1 3s linear ;
+        top: 150px;left: 34%;
+    }
+    .container .section1 .inner .title p:nth-child(2) {
+        animation: p2 3s linear ;
+        top: 150px;left: 40%;
+    }
+    .container .section1 .inner .title p:nth-child(3) {
+        animation: p3 3s linear ;
+        top: 150px;left: 44%;
+    }
+    .container .section1 .inner .title p:nth-child(4) {
+        animation: p4 3s linear ;
+        top: 150px;left: 50%;
+        transform: translateX(-50%);
+    }
+    .container .section1 .inner .title p:nth-child(5) {
+        animation: p5 3s linear ;
+        top: 150px;left: 52%;
+    }
+    .container .section1 .inner .title p:nth-child(6) {
+        animation: p6 3s linear ;
+        top: 150px;left: 56%;
+    }
+    .container .section1 .inner .title p:nth-child(7) {
+        animation: p7 3s linear ;
+        top: 150px;left: 60%;
+    }   
+}
+@media screen and (max-width:500px) {
+    .container .section1 .inner .pro1 .pro-text .page,
+    .container .section1 .inner .pro3 .pro-text .page {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .container .section1 .inner .pro .pro-text {
+        width: 100%;
+    }
+    .container .section1 .inner .pro1 .pro-text .page p,
+    .container .section1 .inner .pro3 .pro-text .page p {
+        margin: 0 auto;
+    }
+    .container .section1 .inner .pro img {
+        width: 100%;
+    }
+    .container .section1 .inner .pro1:hover .hover, .container .section1 .inner .pro3:hover .hover {
+        top: -257%;
+    }
+    .container .section1 .inner .pro2:hover .hover {
+        top: -268%;
+    }
+    .container .section1 .inner .pro3:hover .hover {
+        top: -560%;
+    }
+    .container .section1 .inner .pro1 .hover,
+    .container .section1 .inner .pro2 .hover,
+    .container .section1 .inner .pro3 .hover {
+        width: 100%;
+        left: 0;
+    }
+    .container .section1 .inner .title p:nth-child(1) {
+        animation: none;
+        top: 50px;left: 30%;
+    }
+    .container .section1 .inner .title p:nth-child(2) {
+        animation: none;
+        top: 50px;left: 37%;
+    }
+    .container .section1 .inner .title p:nth-child(3) {
+        animation: none;
+        top: 50px;left: 41%;
+    }
+    .container .section1 .inner .title p:nth-child(4) {
+        animation: none;
+        top: 50px;left: 49%;
+        transform: translateX(-50%);
+    }
+    .container .section1 .inner .title p:nth-child(5) {
+        animation: none;
+        top: 50px;left: 51%;
+    }
+    .container .section1 .inner .title p:nth-child(6) {
+        animation: none;
+        top: 50px;left: 56%;
+    }
+    .container .section1 .inner .title p:nth-child(7) {
+        animation: none;
+        top: 50px;left: 61%;
+    }   
+    .container .section1 .inner .pro {
+        flex-direction: column;
+    }
+    .container .section1 .inner .pro1 {
+        top: 12%;
+    }
+    .container .section1 .inner .pro2 {
+        top: 33%;
+    }
+    .container .section1 .inner .pro3 {
+        top: 55%;
+    }
+    .container .section1 .inner .pro .pro-text .date, .container .section1 .inner .pro .pro-text .tool {
+        display: none;
+    }
+    .container .section2 {
+        /* position: absolute; */
+        top: 110%;
+        left: 0;
+    }
+    .mobile-text-box {
+        opacity: 1;
+        visibility: visible;
+    }
+    .container .section2 .inner {
+        width: 100%;
+    }
+    .container .section2 .inner .pro {
+        width: 90%;
+    }
+    .container .section2 .inner .pro img, .container .section2 .inner .pro .pro-text {
+        width: 100%;
+        height: 200px;
+    }
+    .container .section2 .inner .pro img {
+        width: 100%;
+        height: 200px;
+    } 
+    .container .section2 .inner .pro .pro-text {
+        width: 100%;
+        height: 100px;
+    }
+    .container .section2 .inner .pro .pro-text .page {
+        justify-content: space-around;
+    }
+    .container .section2 .inner .pro .pro-text .tool,
+    .container .section2 .inner .pro .pro-text .date {
+        display: none;
+    }
+    .hover {
+        display: none;
+    }
+}
+@media screen and (max-width:420px) {
+    .container main .inner-left .text-box p a{
+        padding: 0;
+    }
+    .container main .inner-left .text-box span, .container main .inner-left .text-box .text:hover span::before {
+        width: 50px;
+    }
+    .container main .inner-left .back span, .container main .inner-left .text-box .back:hover span::before{
+        width: 40px;
+    }
+    .container main .inner-left .text-box .contect span, 
+    .container main .inner-left .text-box .contect .text:hover span:before {
+        width: 50px;
+    }
+    .container main .inner-left .back span, .container main .inner-left .text-box .back:hover span::before {
+        width: 35px;
+    }
+}
+@media screen and (max-width:370px) {
+    .container .section1 .inner .title p:nth-child(1) {
+        animation: p1 3s linear ;
+        top: 50px;left: 30%;
+    }
+    .container .section1 .inner .title p:nth-child(2) {
+        animation: p2 3s linear ;
+        top: 50px;left: 36%;
+    }
+    .container .section1 .inner .title p:nth-child(3) {
+        animation: p3 3s linear ;
+        top: 50px;left: 40%;
+    }
+    .container .section1 .inner .title p:nth-child(4) {
+        animation: p4 3s linear ;
+        top: 50px;left: 49%;
+        transform: translateX(-50%);
+    }
+    .container .section1 .inner .title p:nth-child(5) {
+        animation: p5 3s linear ;
+        top: 50px;left: 51%;
+    }
+    .container .section1 .inner .title p:nth-child(6) {
+        animation: p6 3s linear ;
+        top: 50px;left: 57%;
+    }
+    .container .section1 .inner .title p:nth-child(7) {
+        animation: p7 3s linear ;
+        top: 50px;left: 63%;
+    }   
+
+}
+/* portfolio -------------------------------------------------*/

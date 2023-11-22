@@ -1,0 +1,7 @@
+@charset "utf-8";
+@media screen and (max-width:526px) {
+    .container main .again {
+        top: 34%;left: 50%;
+        transform: translateX(-50%);
+    }
+}
